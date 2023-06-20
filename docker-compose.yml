@@ -1,14 +1,9 @@
-# Файл docker-compose.yml
-
-# Версия docker-compose
 version: '3'
 
-# Перечень volume
 volumes:
   pg_data:
   static:
 
-# Перечень контейнеров
 services:
   # Имя и описание первого контейнера; имя выбирает разработчик. 
   # Это контейнер БД
